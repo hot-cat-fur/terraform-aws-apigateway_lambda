@@ -1,6 +1,4 @@
-provider "aws" {
-  region = "eu-central-1"
-}
+
 resource "aws_sns_topic" "mytopic_p" {
   name = "my-topic_p"
   delivery_policy = <<EOF
